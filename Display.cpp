@@ -146,7 +146,6 @@ void Display::createApple() {
 			square->setColor(newColor);
 			// Set vertices to the polygon
 			square->setVertices(vert, 4);
-			//square->setVertices()
 			std::string name = "Apple";
 			mixr::base::Pair* pair = new mixr::base::Pair(name.c_str(), square);
 			addComponent(pair);
