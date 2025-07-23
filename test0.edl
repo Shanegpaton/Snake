@@ -1,0 +1,15 @@
+#line 1 "C:/Apps/2025/mixr-examples/MissileHud/station.epp"
+( Station
+ simulation: ( WorldModel
+ )
+components: {
+	display: (Display
+		left: 0
+		right: 10
+		bottom: 0
+		top: 10
+		vpWidth: 1000
+		vpHeight: 1000
+		)
+	}
+)
